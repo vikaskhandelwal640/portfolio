@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>portfolio</title>
+    </head>
+
+    <body>
+        <a href="#" class="go-top-btn"><i class='bx bxs-chevrons-up'></i></a>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logo.png" alt="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#container">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class='bx bx-x' onclick="closemenu()" ></i>
+                    </ul>
+                    <i class='bx bx-menu' onclick="openmenu()"></i>
+                </nav>
+                <div class="heading">
+                    <div class="header-text">
+                        <p>Frontend Developer</p>
+                        <h1>Hi, I'm<span> Vikas Khandelwal</span><br> And I'm
+                            Frontend Developer</h1>
+
+                    </div>
+                    <div id="main-img">
+                        <img src="img/WhatsApp Image 2023-08-08 at 12.37.24.jpg"
+                            alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------about------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img
+                            src="img/52653317_609787622805898_5080649088026853439_n.jpg"
+                            alt>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hey there, I'm Vikas khandelwal,
+                            a passionate frontend developer with a love for
+                            crafting
+                            pixel-perfect,
+                            user-friendly websites. With a keen eye for design
+                            and a
+                            knack for coding,
+                            I strive to create seamless and visually appealing
+                            online experiences.
+                            My journey into the world of web development began
+                            with
+                            curiosity and a desire to bring ideas to life on the
+                            digital canvas.
+                            Over the years, I've honed my skills in HTML, CSS,
+                            and
+                            JavaScript to transform concepts into interactive
+                            and
+                            engaging websites
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"
+                                onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front end</span><br>Html,Css,Js</li>
+                                <li><span>Git</span><br>Web App development</li>
+                                <li><span>App development</span> </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017-18</span><br>SSc</li>
+                                <li><span>2019-20</span><br>Hsc</li>
+                                <li><span>2020-23</span><br>Degree in BscIT
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> Fresher</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------services---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Web design</h2>
+                        <p>JavaScript to transform concepts into interactive and
+                            engaging websites</p>
+                        <a href>Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Web design</h2>
+                        <p>JavaScript to transform concepts into interactive and
+                            engaging websites</p>
+                        <a href>Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Web design</h2>
+                        <p>JavaScript to transform concepts into interactive and
+                            engaging websites</p>
+                        <a href>Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----portfolio----->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/bg1.jpeg" alt>
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>zhkjchdznczxhjkchznkjjdkchnxcmhkjschjn</p>
+                            <a href=" #"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/bg2.jpg" alt>
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>zhkjchdznczxhjkchznkjjdkchnxcmhkjschjn</p>
+                            <a href=" #"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/bg3.jpg" alt>
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>zhkjchdznczxhjkchznkjjdkchnxcmhkjschjn</p>
+                            <a href=" #"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!-----------contact------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class='bx bxl-telegram'></i>Vikaskhandelwal640@gmail.com</p>
+                        <p><i class='bx bxs-phone'></i>8379224473</p>
+                        <div id="socialmedia">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                        <a href="img/VIKAS KHANDELWAL.pdf" class="btn btn2
+                        ">Download CV</a>
+                    </div>
+                    <div class="contact-Right">
+                        <form>
+                            <input type="text" name="Name"
+                                placeholder="YourName" required>
+                            <input type="email" name="Email"
+                                placeholder="YourEmail" required>
+                            <textarea name="Message" rows="6"
+                                placeholder="Message"></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="text.js" ></script>
+    </body>
+</html>
